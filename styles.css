@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+.flex-row{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+.flex-column{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+.header{
+    justify-content: center;
+    height: 20vh;
+    width: 100%;
+    background-color: #e9e9e9;
+}
+.header img{
+    height: 70%;
+    margin: 20px;
+    align-self: flex-start;
+    left: 0;
+}
+.h-title{
+    font-weight: bold;
+	color: #191919;
+	text-align: center;
+    display: block;
+    font-size: 2em;
+    text-transform: uppercase;
+    padding-top: calc((20vh - 39px)/2);
+    margin-left: -200px;
+}
+.h-text{
+    font-weight: bold;
+	color: #191919;
+	text-align: center;
+    display: block;
+    font-size: 1.4em;
+    text-transform: uppercase;
+    margin: 20px 20px 0 20px;
+}
+a{
+    text-decoration: none;
+	color: #fff;
+}
+.h-text a{
+    text-decoration: none;
+	color: #191919;
+}
+.h-text a:hover{
+	color: #10c9c3;
+}
+.button{
+	font-family: 'Montserrat', sans-serif;
+	background-color: #10c9c3;
+	border: 0;
+	display: inline-block;
+	padding: 15px 32px;
+    width: 200px;
+    font-size: 0.9em;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.button:hover{
+    background-color: #35fff8;
+	transform: translateY(5px);
+    transition: 1s;
+    font-size: 1em;
+}
+.m-text{
+    margin: 20px;
+    text-align: justify;
+}
+.house-book{
+    width: 60%;
+    height: 300px;
+    margin: 0 20%;
+    border-bottom: 1px solid black;
+}
+.img{
+    height: 300px;
+    width: 90%;
+    align-self: flex-start;
+    margin: 40px 25px 0px 25px;
+}
+.img img{
+    width: 100%;
+
+}
+.img img:hover{
+    background-color: #fff;
+}
+.house-info{
+    align-items: center;
+}
